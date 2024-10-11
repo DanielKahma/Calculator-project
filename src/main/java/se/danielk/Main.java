@@ -31,30 +31,30 @@ public class Main {
             System.out.println("Enter your second number: ");
             number2 = scanner.nextInt();
 
-            double sum = 0;
+            double result = 0;
 
             switch (operator) {
                 case 1:
-                    sum = number1 + number2;
+                    result = number1 + number2;
                     break;
 
                 case 2:
-                    sum = number1 - number2;
+                    result = number1 - number2;
                     break;
 
                 case 3:
-                    sum = number1 * number2;
+                    result = number1 * number2;
                     break;
 
                 case 4:
-                    sum = number1 / number2;
+                    result = number1 / number2;
                     break;
 
                 default:
                     System.out.println("Invalid option.");
             }
 
-            System.out.println("Answer: " + sum);
+            System.out.println("Answer: " + result);
 
 
             System.out.println("Want yo calculate more? yes or no");
@@ -64,7 +64,8 @@ public class Main {
         while (answer.equals("yes"));
 
 
+
+
+
     }
-
-
 }
